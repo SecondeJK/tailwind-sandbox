@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tailwind": "npx tailwindcss build styles.css -o tailwind.css"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,9 @@
   },
   "homepage": "https://github.com/SecondeJK/tailwind-sandbox#readme",
   "dependencies": {
+    "autoprefixer": "^9.8.6",
+    "live-server": "^1.2.1",
+    "postcss-cli": "^7.1.2",
     "tailwind": "^4.0.0"
   }
 }
